@@ -46,6 +46,7 @@ steps:
     
       #Try getting submodules
       git submodule update --init --recursive
+      dir
       move .\UWP\PackageGold.appxmanifest .\UWP\Package.appxmanifest
 
       #Import the certificate included in the repo
