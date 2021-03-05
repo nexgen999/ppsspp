@@ -1,3 +1,15 @@
+Generate Microsoft Store package for Xbox:
+
+[![Build Status](https://dev.azure.com/Nun-z/PPSSPP%20Generate%20Store%20Package/_apis/build/status/PPSSPP%20Generate%20Store%20Package?branchName=main)](https://dev.azure.com/Nun-z/PPSSPP%20Generate%20Store%20Package/_build/latest?definitionId=19&branchName=main)
+
+Generate dev mode package for Xbox:
+
+[![Build Status](https://dev.azure.com/Nun-z/PPSSPP%20Generate%20Dev%20Mode%20Package/_apis/build/status/PPSSPP%20Generate%20Dev%20Mode%20Package?branchName=main)](https://dev.azure.com/Nun-z/PPSSPP%20Generate%20Dev%20Mode%20Package/_build/latest?definitionId=20&branchName=main)
+
+CI on commit to repo:
+
+[![Build Status](https://dev.azure.com/Nun-z/PPSSPP/_apis/build/status/Nun-z.ppsspp?branchName=master)](https://dev.azure.com/Nun-z/PPSSPP/_build/latest?definitionId=23&branchName=master)
+
 PPSSPP - a fast and portable PSP emulator
 =========================================
 
