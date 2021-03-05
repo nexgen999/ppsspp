@@ -359,6 +359,7 @@
     <None Include="..\assets\ui_atlas.meta">
       <Filter>Content</Filter>
     </None>
+    <None Include="Package.StoreAssociation.xml" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Content\gamecontrollerdb.txt">
