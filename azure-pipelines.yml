@@ -46,7 +46,7 @@ steps:
     
       #Try getting submodules
       git submodule update --init --recursive
-      move .\ppsspp\UWP\PackageGold.appxmanifest .\ppsspp\UWP\Package.appxmanifest
+      move .\UWP\PackageGold.appxmanifest .\UWP\Package.appxmanifest
 
       #Import the certificate included in the repo
       Write-Host "Import Certificate" 
