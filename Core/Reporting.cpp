@@ -108,7 +108,7 @@ namespace Reporting
 	static std::thread crcThread;
 
 	static int CalculateCRCThread() {
-		setCurrentThreadName("ReportCRC");
+		SetCurrentThreadName("ReportCRC");
 
 		// TODO: Use the blockDevice from pspFileSystem?
 		FileLoader *fileLoader = ConstructFileLoader(crcFilename);
@@ -261,9 +261,12 @@ namespace Reporting
 	bool SendReportRequest(const char *uri, const std::string &data, const std::string &mimeType, Buffer *output = NULL)
 	{
 		http::Client http;
-		Buffer theVoid;
+		http::RequestProgress progress;
+		Buffer theVoid = Buffer::Void();
 
-		if (output == NULL)
+		http.SetUserAgent(StringFromFormat("PPSSPP/%s", PPSSPP_GIT_VERSION));
+
+		if (output == nullptr)
 			output = &theVoid;
 
 		const char *serverHost = ServerHostname();
@@ -272,7 +275,7 @@ namespace Reporting
 
 		if (http.Resolve(serverHost, ServerPort())) {
 			http.Connect();
-			int result = http.POST(uri, data, mimeType, output);
+			int result = http.POST(uri, data, mimeType, output, &progress);
 			http.Disconnect();
 
 			return result >= 200 && result < 300;
@@ -462,7 +465,7 @@ namespace Reporting
 
 	int Process(int pos)
 	{
-		setCurrentThreadName("Report");
+		SetCurrentThreadName("Report");
 
 		Payload &payload = payloadBuffer[pos];
 		Buffer output;
@@ -616,7 +619,7 @@ namespace Reporting
 	}
 
 	int ProcessPending() {
-		setCurrentThreadName("Report");
+		SetCurrentThreadName("Report");
 
 		std::unique_lock<std::mutex> guard(pendingMessageLock);
 		while (!pendingMessagesDone) {

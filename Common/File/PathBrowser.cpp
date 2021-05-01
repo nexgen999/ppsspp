@@ -22,6 +22,8 @@ bool LoadRemoteFileList(const std::string &url, bool *cancel, std::vector<File::
 	int code = 500;
 	std::vector<std::string> responseHeaders;
 
+	http.SetUserAgent(StringFromFormat("PPSSPP/%s", PPSSPP_GIT_VERSION));
+
 	Url baseURL(url);
 	if (!baseURL.Valid()) {
 		return false;
@@ -30,7 +32,8 @@ bool LoadRemoteFileList(const std::string &url, bool *cancel, std::vector<File::
 	// Start by requesting the list of files from the server.
 	if (http.Resolve(baseURL.Host().c_str(), baseURL.Port())) {
 		if (http.Connect(2, 20.0, cancel)) {
-			code = http.GET(baseURL.Resource().c_str(), &result, responseHeaders);
+			http::RequestProgress progress(cancel);
+			code = http.GET(baseURL.Resource().c_str(), &result, responseHeaders, &progress);
 			http.Disconnect();
 		}
 	}
@@ -172,7 +175,7 @@ void PathBrowser::HandlePath() {
 		return;
 
 	pendingThread_ = std::thread([&] {
-		setCurrentThreadName("PathBrowser");
+		SetCurrentThreadName("PathBrowser");
 
 		std::unique_lock<std::mutex> guard(pendingLock_);
 		std::vector<File::FileInfo> results;
