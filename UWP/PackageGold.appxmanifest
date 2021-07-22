@@ -3,7 +3,7 @@
 <Identity Name="38290N-Soft.PSPEmulation" Publisher="CN=DBEECBAB-E09C-4284-B5EA-80CDCB791506" Version="1.8.0.3" />
   <mp:PhoneIdentity PhoneProductId="32617401-c880-44d1-ba5a-c0b46feba525" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>PSP Emulator</DisplayName>
+    <DisplayName>PSP Emulation</DisplayName>
     <PublisherDisplayName>libretro</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
