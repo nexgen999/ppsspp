@@ -361,9 +361,9 @@
     <Language Code="zu-za" InMinimumRequirementSet="true" />
   </SupportedLocales>
   <ProductReservedInfo>
-    <MainPackageIdentityName>38290N-Soft.PSPEmulator</MainPackageIdentityName>
+    <MainPackageIdentityName>38290N-Soft.PSPEmulation</MainPackageIdentityName>
     <ReservedNames>
-      <ReservedName>PSP Emulator</ReservedName>
+      <ReservedName>PSP Emulation</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
   <AccountPackageIdentityNames>
