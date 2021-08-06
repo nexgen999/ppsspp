@@ -209,6 +209,7 @@ public:
 	int iRewindFlipFrequency;
 	bool bUISound;
 	bool bEnableStateUndo;
+	std::string sStateLoadUndoGame;
 	int iAutoLoadSaveState; // 0 = off, 1 = oldest, 2 = newest, >2 = slot number + 3
 	bool bEnableCheats;
 	bool bReloadCheats;
@@ -490,7 +491,7 @@ public:
 	std::string dismissedVersion;
 
 	void Load(const char *iniFileName = nullptr, const char *controllerIniFilename = nullptr);
-	void Save(const char *saveReason);
+	bool Save(const char *saveReason);
 	void Reload();
 	void RestoreDefaults();
 
