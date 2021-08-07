@@ -548,6 +548,7 @@ static ConfigSetting generalSettings[] = {
 	ConfigSetting("RightAnalogRight", &g_Config.iRightAnalogRight, 0, true, true),
 	ConfigSetting("RightAnalogPress", &g_Config.iRightAnalogPress, 0, true, true),
 	ConfigSetting("RightAnalogCustom", &g_Config.bRightAnalogCustom, false, true, true),
+	ConfigSetting("RightAnalogDisableDiagonal", &g_Config.bRightAnalogDisableDiagonal, false, true, true),
 
 	// "default" means let emulator decide, "" means disable.
 	ConfigSetting("ReportingHost", &g_Config.sReportHost, "default"),
@@ -1490,7 +1491,6 @@ bool Config::Save(const char *saveReason) {
 
 		if (!iniFile.Save(iniFilename_)) {
 			ERROR_LOG(LOADER, "Error saving config (%s)- can't write ini '%s'", saveReason, iniFilename_.c_str());
-			System_SendMessage("toast", "Failed to save settings!\nCheck permissions, or try to restart the device.");
 			return false;
 		}
 		INFO_LOG(LOADER, "Config saved (%s): '%s'", saveReason, iniFilename_.c_str());
