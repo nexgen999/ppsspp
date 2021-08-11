@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StoreAssociation xmlns="http://schemas.microsoft.com/appx/2010/storeassociation">
-  <Publisher>CN=DBEECBAB-E09C-4284-B5EA-80CDCB791506</Publisher>
-  <PublisherDisplayName>libretro</PublisherDisplayName>
+  <Publisher>CN=E834DD45-81D2-4A1E-AFC0-B7094B01E165</Publisher>
+  <PublisherDisplayName>Ephemeral Solutions</PublisherDisplayName>
   <DeveloperAccountType>MSA</DeveloperAccountType>
   <GeneratePackageHash>http://www.w3.org/2001/04/xmlenc#sha256</GeneratePackageHash>
   <SupportedLocales>
@@ -361,38 +361,16 @@
     <Language Code="zu-za" InMinimumRequirementSet="true" />
   </SupportedLocales>
   <ProductReservedInfo>
-    <MainPackageIdentityName>38290N-Soft.PPSSSPPEmulation</MainPackageIdentityName>
+    <MainPackageIdentityName>20554EphemeralSolutions.PPSSPPApp</MainPackageIdentityName>
     <ReservedNames>
-      <ReservedName>PPSSPP Emulation</ReservedName>
+      <ReservedName>PPSSPP App</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
   <AccountPackageIdentityNames>
-    <MainPackageIdentityName>38290N-Soft.adsfghjk</MainPackageIdentityName>
-    <MainPackageIdentityName>38290N-Soft.Cyberdyne</MainPackageIdentityName>
-    <MainPackageIdentityName>38290N-Soft.FluentMSStore</MainPackageIdentityName>
-    <MainPackageIdentityName>38290N-Soft.FluentTerminal</MainPackageIdentityName>
-    <MainPackageIdentityName>38290N-Soft.FTP</MainPackageIdentityName>
-    <MainPackageIdentityName>38290N-Soft.FTPDurango</MainPackageIdentityName>
-    <MainPackageIdentityName>38290N-Soft.MinerNz</MainPackageIdentityName>
-    <MainPackageIdentityName>38290N-Soft.Retroarch-NoCores</MainPackageIdentityName>
-    <MainPackageIdentityName>38290N-Soft.RetroArchExperimental</MainPackageIdentityName>
-    <MainPackageIdentityName>38290N-Soft.RetroRev</MainPackageIdentityName>
-    <MainPackageIdentityName>38290N-Soft.RXFileExplorer</MainPackageIdentityName>
-    <MainPackageIdentityName>38290N-Soft.UWPFileExplorer</MainPackageIdentityName>
-    <MainPackageIdentityName>38290N-Soft.XboxPackageInstaller</MainPackageIdentityName>
+    <MainPackageIdentityName>20554EphemeralSolutions.FTPApplication</MainPackageIdentityName>
+    <MainPackageIdentityName>20554EphemeralSolutions.PSEmulator</MainPackageIdentityName>
+    <MainPackageIdentityName>20554EphemeralSolutions.RetroRevolved</MainPackageIdentityName>
+    <MainPackageIdentityName>20554EphemeralSolutions.RetroRevolved-Auto-update</MainPackageIdentityName>
   </AccountPackageIdentityNames>
-  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9NN4MXPXPTL7">
-    <BundleInfo>
-      <PackageInfo>
-        <OsMinVersion>0.0.0.0</OsMinVersion>
-        <PackageArchitecture>X64</PackageArchitecture>
-        <PackageMaxArchitectureVersion>20.1.21036.0</PackageMaxArchitectureVersion>
-      </PackageInfo>
-      <PackageInfo>
-        <OsMinVersion>0.0.0.0</OsMinVersion>
-        <PackageArchitecture>Neutral</PackageArchitecture>
-        <PackageMaxArchitectureVersion>20.1.21036.0</PackageMaxArchitectureVersion>
-      </PackageInfo>
-    </BundleInfo>
-  </PackageInfoList>
+  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9NZ96GMPL528" />
 </StoreAssociation>
