@@ -184,11 +184,11 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <PackageCertificateKeyFile>PPSSPPCert.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>NewRetroArchCert.pfx</PackageCertificateKeyFile>
     <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
     <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
     <AppxBundle>Never</AppxBundle>
-    <PackageCertificateThumbprint>0bbfdbd9c447c9d649842b156ab88bb1c883023d</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>ba64e12ea31f1f143c10e52bcb432354689dcedd</PackageCertificateThumbprint>
     <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
     <AppInstallerUpdateFrequency>1</AppInstallerUpdateFrequency>
     <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
