@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="38290N-Soft.PSPEmulator" Publisher="CN=DBEECBAB-E09C-4284-B5EA-80CDCB791506" Version="1.0.0.0" />
+  <Identity Name="20554EphemeralSolutions.PPSSPPApp" Publisher="CN=DBEECBAB-E09C-4284-B5EA-80CDCB791506" Version="1.0.0.0" />
   <mp:PhoneIdentity PhoneProductId="0ad29e1a-1069-4cf5-8c97-620892505f0c" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>PSP Emulator</DisplayName>
-    <PublisherDisplayName>libretro</PublisherDisplayName>
+    <DisplayName>PPSSPP App</DisplayName>
+    <PublisherDisplayName>Ephemeral Solutions</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
