@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="20554EphemeralSolutions.PPSSPPApp" Publisher="CN=DBEECBAB-E09C-4284-B5EA-80CDCB791506" Version="1.0.0.0" />
-  <mp:PhoneIdentity PhoneProductId="0ad29e1a-1069-4cf5-8c97-620892505f0c" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="20554EphemeralSolutions.PPSSPPApp" Publisher="CN=E834DD45-81D2-4A1E-AFC0-B7094B01E165" Version="1.0.1.0" />
+  <mp:PhoneIdentity PhoneProductId="7d919c98-4c61-4091-83b9-57ae17f563e7" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>PPSSPP App</DisplayName>
     <PublisherDisplayName>Ephemeral Solutions</PublisherDisplayName>
