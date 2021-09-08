@@ -52,7 +52,7 @@ steps:
       #Import the certificate included in the repo
       New-SelfSignedCertificate -Type Custom -Subject "CN=DBEECBAB-E09C-4284-B5EA-80CDCB791506" -KeyUsage DigitalSignature -FriendlyName "GeneratedCert" -CertStoreLocation "Cert:\CurrentUser\My" -TextExtension @("2.5.29.37={text}1.3.6.1.5.5.7.3.3", "2.5.29.19={text}")
       $Thumbprint = (Get-ChildItem -Path Cert:\CurrentUser\My | Where-Object {$_.Subject -match "CN=DBEECBAB-E09C-4284-B5EA-80CDCB791506"}).Thumbprint;
-      (Get-Content -path ".\ppsspp\UWP\UWP.vcxproj" -Raw) -replace 'ba64e12ea31f1f143c10e52bcb432354689dcedd', $Thumbprint | Set-Content -Path ".\ppsspp\UWP\UWP.vcxproj"
+      (Get-Content -path ".\UWP\UWP.vcxproj" -Raw) -replace 'ba64e12ea31f1f143c10e52bcb432354689dcedd', $Thumbprint | Set-Content -Path ".\UWP\UWP.vcxproj"
 
 #Build the package
 - task: VSBuild@1
