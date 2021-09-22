@@ -1,10 +1,10 @@
 Generate Microsoft Store package for Xbox:
 
-[![Build Status](https://dev.azure.com/Nun-z/PPSSPP%20Generate%20Store%20Package/_apis/build/status/PPSSPP%20Generate%20Store%20Package?branchName=main)](https://dev.azure.com/Nun-z/PPSSPP%20Generate%20Store%20Package/_build/latest?definitionId=19&branchName=main)
+[![Build Status](https://dev.azure.com/Nun-z/Generate%20Packages/_apis/build/status/PPSSPP%20Store%20Package?branchName=main)](https://dev.azure.com/Nun-z/Generate%20Packages/_build/latest?definitionId=53&branchName=main)
 
 Generate dev mode package for Xbox (and generate automated package):
 
-[![Build Status](https://dev.azure.com/Nun-z/PPSSPP%20Generate%20Dev%20Mode%20Package/_apis/build/status/PPSSPP%20Generate%20Dev%20Mode%20Package?branchName=main)](https://dev.azure.com/Nun-z/PPSSPP%20Generate%20Dev%20Mode%20Package/_build/latest?definitionId=20&branchName=main)
+[![Build Status](https://dev.azure.com/Nun-z/Generate%20Packages/_apis/build/status/PPSSPP%20Dev%20Package?branchName=main)](https://dev.azure.com/Nun-z/Generate%20Packages/_build/latest?definitionId=54&branchName=main)
 
 CI on commit to repo:
 
